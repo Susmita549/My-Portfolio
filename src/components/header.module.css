@@ -1,0 +1,94 @@
+/* .header{
+     background: rgb(2,0,36);
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,80,218,1) 46%, rgba(0,212,255,1) 88%);
+     max-width:100vw;
+     height:100vh;
+     display: flex;
+        align-items: center;
+        justify-content: center;
+       flex-direction: column;
+    
+} */
+.header {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url("http://pngimg.com/uploads/rain/rain_PNG13468.png");
+  animation: rain 0.19s ease-in infinite;
+}
+
+@keyframes rain {
+  0% {
+    background-position: 10 0;
+  }
+  100% {
+    background-position: 20% 80%;
+  }
+}
+.sub_header>button{
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+/* //footer section  */
+
+.footer {
+  background: rgba(16, 16, 25, 0.9);
+  color: white;
+  text-align: center;
+  height: 40vh;
+}
+.footer_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+}
+.footer_maindiv {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+.footer_maindiv > div {
+  border: none;
+  background-color: none;
+  
+  margin: 10px;
+  /* -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0), 5px 5px 15px 5px rgba(241, 255, 235, 0);
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0), 5px 5px 15px 5px rgba(241, 255, 235, 0); */
+    transition:width 2s height 2s;
+}
+.footer_maindiv > div :hover{
+  width:70px;
+  height:70px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  border-radius: 20px;
+}
