@@ -4,18 +4,18 @@ const Footer = () => {
   return (
     <div>
       <div>
-        <div className="container-fluid my-4 border border-warning">
+      <h1 className="text text-center h1 m-5"> <u>HOW TO REACH ME</u></h1>
+        <div className="container my-4 ">
           <div className="row">
-            <div className="col-md-6 border border-warning">
+            <div className="col-md-6 ">
               <div className={styles.footer_image}>
                 <img src="footer.png" alt="contact" />
               </div>
             </div>
-            <div className="col-md-6 border border-warning">
-              <h1>how to reach me</h1>
-              <p>
-                I'M ALWAYS OPEN TO DISCUSS YOUR/MY PROJECT AND TALK ABOUT NEW
-                THINGS. LET'T GET IN TOUCH AND MAKE SOMETHING AMAZING TOGETHER.
+            <div className="col-md-6 ">
+              <h2>FEEL FREE TO REACH OUT TO ME</h2>
+              <p>I am always open to discuss about my project or any other project.let's get 
+                in touch and make something amazing together.
               </p>
               <div className={styles.footer_maindiv}>
                 <div>

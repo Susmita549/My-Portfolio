@@ -3,21 +3,24 @@ import React from 'react';
 const Profile = () => {
   return (
     <div>
-     <div className='container-fluid border border-primary p-5 my-5'>
-         <div className="row border border-success">
-             <div className="col-md-6 border border-primary p-5">
-             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV3NfLJ0uCgHVmEAMPGv9_1yYFwgn3Ci4U5A&usqp=CAU" class="img-thumbnail" alt="..."/>
+     <div className='container-fluid  p-5 my-5'>
+         <div className="row ">
+             <div className="col-md-6  p-5">
+             <img src="mypic.jpg" class="img-thumbnail" alt="mypic"/>
              </div>
-             <div className="col-md-6 border border-primary p-5">
+             <div className="col-md-6  p-5">
                <h1 className='text text-center'>About Me</h1>
                <div>
-                 <p className='text text-center'>
-                 💻Full-Stack web developer with a degree in Computer Science Engineering who believes in sharing knowledge, 
+                 <p className='text text-center lead p-5 h5'>
+                 <em>💻Full-Stack web developer with a degree in Electronics and Communication Engineering who believes in sharing knowledge, 
                  loves JavaScript and can spare hours talking about it. My experience and learnings in this field have helped me 
-                 garner the required skill-set to be a successful web developer
+                 garner the required skill-set to be a successful web developer</em>
                  </p>
                </div>
+               <a href="https://drive.google.com/file/d/1lHt13TX0wQKGykhrVi4Ivfa4PBOswMM8/view?ts=628fd138">
                <button className='btn btn-primary'>RESUME</button>
+               </a>
+               
              </div>
          </div>
      </div>

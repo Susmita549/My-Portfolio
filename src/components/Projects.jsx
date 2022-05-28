@@ -3,122 +3,120 @@ import './portfolio.css'
 const Projects = () => {
   return (
     <>
+      <h1 className="text text-center h1"> ABOUT PROJECTS</h1>
       <div className="container ">
-        <div className="row border border-danger mx-auto">
-          <div className=" col-md-6  my-4 border border-danger ">
-            <div class="card" style={{ width: "32rem" }}>
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+        <div className="row  mx-auto">
+          <div className=" col-md-6  my-4  ">
+            <div className="card mx-auto" style={{ width: "20rem" }}>
+              <img src="frontend.PNG" className="card-img-top " alt="frontend master" />
+              <div className="card-body">
+                <h5 className="card-title">FRONTEND MASTER</h5>
+                <p className="card-text">
+                  A website basically deals with frontend courses.It has lot of functionalities 
+                  among which my task is to make the home page and signin page.This is an team project
+                   completed in 5 days. We cover all the functionalities.
                 </p>
                 <div className="container d-flex justify-content-around">
-                <a href="#" class="btn btn-primary ">
+                <a href="https://github.com/Susmita549/Frontend_Master" className="btn btn-primary ">
                   Code
                 </a>
-                <a href="#" class="btn btn-primary">
+                <a href="https://darling-chebakia-d6a79c.netlify.app/" className="btn btn-primary">
                   Website
                 </a>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-6   my-4 border border-danger">
-            <div class="card" style={{ width: "32rem" }}>
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+          <div className="col-md-6   my-4 ">
+            <div className="card mx-auto" style={{ width: "20rem" }}>
+              <img src="intern..PNG" className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">INTERN THEORY</h5>
+                <p className="card-text">
+                  A website basically deals with internshipsnin different field.In this project my
+                   responsibility is build the inner pages.This is an team project completed in 5 days. We cover all the functionalities.
                 </p>
                 <div className="container d-flex justify-content-around">
-                <a href="#" class="btn btn-primary">
+                <a href="https://github.com/Susmita549/Intern-Theory" className="btn btn-primary">
                   Code
                 </a>
-                <a href="#" class="btn btn-primary">
+                <a href="https://tranquil-sherbet-8f6bdd.netlify.app/" className="btn btn-primary">
                   Website
                 </a>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-6 my-4 border border-danger">
-            <div class="card" style={{ width: "32rem" }}>
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+          <div className="col-md-6 my-4 ">
+            <div className="card mx-auto" style={{ width: "20rem" }}>
+              <img src="movie.PNG" className="card-img-top" alt="movie" />
+              <div className="card-body">
+                <h5 className="card-title">MOVIE APP</h5>
+                <p className="card-text">
+                  An app which which us to search different types of movies.We can also sort the movies according to the rating.It is a self project.
                 </p>
                 <div className="container d-flex justify-content-around">
-                <a href="#" class="btn btn-primary">
+                <a href="https://github.com/Susmita549/Movie-App" className="btn btn-primary">
                   Code
                 </a>
-                <a href="#" class="btn btn-primary">
+                <a href="https://susmita549.github.io/Movie-App/movie.html" className="btn btn-primary">
                   Website
                 </a>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-6  my-4 border border-danger">
-            <div class="card" style={{ width: "32rem" }}>
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+          <div className="col-md-6  my-4 ">
+            <div className="card mx-auto" style={{ width: "20rem" }}>
+              <img src="weather.PNG" className="card-img-top" alt="weather" />
+              <div className="card-body">
+                <h5 className="card-title">Weather App</h5>
+                <p className="card-text">
+                  A self project which provides us with 7 days of weather details of different areas.
                 </p>
                 <div className="container d-flex justify-content-around">
-                <a href="#" class="btn btn-primary">
+                <a href="https://github.com/Susmita549/Weather-App" className="btn btn-primary">
                   Code
                 </a>
-                <a href="#" class="btn btn-primary">
+                <a href="https://susmita549.github.io/Weather-App/" className="btn btn-primary">
                   Website
                 </a>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-6   my-4 border border-danger">
-            <div class="card" style={{ width: "32rem" }}>
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+          <div className="col-md-6   my-4 ">
+            <div className="card mx-auto" style={{ width: "20rem" }}>
+              <img src="clock.PNG" className="card-img-top" alt="clock" />
+              <div className="card-body">
+                <h5 className="card-title">Analog Clock</h5>
+                <p className="card-text">
+                  A simple analog clock which shows us time.
                 </p>
                 <div className="container d-flex justify-content-around">
-                <a href="#" class="btn btn-primary">
+                <a href="https://github.com/Susmita549/Analog-Clock" className="btn btn-primary">
                   Code
                 </a>
-                <a href="#" class="btn btn-primary">
+                <a href="https://susmita549.github.io/Analog-Clock/" className="btn btn-primary">
                   Website
                 </a>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-6 border border-danger  my-4">
-            <div class="card" style={{ width: "32rem" }}>
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+          <div className="col-md-6   my-4">
+            <div className="card mx-auto" style={{ width: "20rem" }}>
+              <img src="stopwatch.PNG" className="card-img-top" alt="stopwatch" />
+              <div className="card-body">
+                <h5 className="card-title">STOPWATCH</h5>
+                <p className="card-text">
+                  A stopwatch made with HTML,CSS and javascript
                 </p>
                 <div className="container d-flex justify-content-around">
-                <a href="#" class="btn btn-primary">
+                <a href="https://github.com/Susmita549/Stopwatch" className="btn btn-primary">
                   Code
                 </a>
-                <a href="#" class="btn btn-primary">
+                <a href="https://susmita549.github.io/Stopwatch/" className="btn btn-primary">
                   Website
                 </a>
                 </div>

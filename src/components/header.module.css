@@ -51,11 +51,7 @@ header::before {
     background-position: 20% 80%;
   }
 }
-.sub_header>button{
-   -moz-box-shadow:    inset 0 0 10px #000000;
-   -webkit-box-shadow: inset 0 0 10px #000000;
-   box-shadow:         inset 0 0 10px #000000;
-}
+
 /* //footer section  */
 
 .footer {
@@ -70,8 +66,12 @@ header::before {
   justify-content: center;
   border: 1px solid white;
 }
+.footer_image >img{
+   height:200px;
+   width:200px
+}
 .footer_maindiv {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: center;
 }
@@ -91,4 +91,23 @@ header::before {
   height:70px;
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   border-radius: 20px;
+}
+
+.sub_header>h1{
+    font-size: 4.5rem;
+    text-shadow: 6px 4px 6px rgba(0,0,0,0.6);
+}
+.sub_header>p{
+  font-size: 1.5rem;
+  text-shadow: 6px 4px 6px rgba(0,0,0,0.6);
+}
+.sub_header>button{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, 
+  rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding:1rem 2rem;
+  margin:2rem;
+  font-size:1.5rem;
+}
+.sub_header>div>a{
+ margin:1rem;
 }

@@ -3,30 +3,31 @@ import './portfolio.css'
 const Skills = () => {
   return (
     <>
+        <h1 className="text text-center h1 m-5"> <u>SKILLS</u></h1>
        <div className="box">
          <div>
-         <img src="html.png" class="img-fluid" alt="Responsive image"/>
+         <img src="html.png" className="img-fluid" alt="Responsive"/>
          </div>
          <div>
-         <img src="css.png" class="img-fluid" alt="Responsive image"/>
+         <img src="css.png" className="img-fluid" alt="Responsive"/>
          </div>
          <div>
-         <img src="js.jpg" class="img-fluid" alt="Responsive image"/>
+         <img src="js.jpg" className="img-fluid" alt="Responsive"/>
          </div>
          <div>
-         <img src="react.png" class="img-fluid" alt="Responsive image"/>
+         <img src="react.png" className="img-fluid" alt="Responsive"/>
          </div>
          <div>
-         <img src="redux.png" class="img-fluid" alt="Responsive image"/>
+         <img src="redux.png" className="img-fluid" alt="Responsive"/>
          </div>
          <div>
-         <img src="mongo.png" class="img-fluid" alt="Responsive image"/>
+         <img src="mongo.png" className="img-fluid" alt="Responsive"/>
          </div>
          <div>
-         <img src="node.png" class="img-fluid" alt="Responsive image"/>
+         <img src="node.png" className="img-fluid" alt="Responsive image"/>
          </div>
          <div>
-         <img src="express.png" class="img-fluid" alt="Responsive image"/>
+         <img src="express.png" className="img-fluid" alt="Responsive image"/>
          </div>
        </div>
     </>
