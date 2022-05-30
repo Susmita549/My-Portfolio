@@ -78,9 +78,9 @@ const Header = () => {
               </svg>
             </a>
           </div>
-          <button type="button" className="btn btn-outline-warning">
+          {/* <button type="button" className="btn btn-outline-warning">
             Scroll Down to know more 😃
-          </button>
+          </button> */}
         </div>
         <div>
           <div className="spinner-grow text-primary" role="status">

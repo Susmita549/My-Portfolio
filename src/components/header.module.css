@@ -110,4 +110,14 @@ header::before {
 }
 .sub_header>div>a{
  margin:1rem;
+
 }
+.sub_header>div{
+  padding:1.5rem;
+ }
+ .sub_header>div>a>svg:hover{
+ fill: #151bd6;
+  
+ }
+
+

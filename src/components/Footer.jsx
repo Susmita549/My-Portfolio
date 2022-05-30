@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./header.module.css";
+import Slide from 'react-reveal/Slide';
+
 const Footer = () => {
   return (
     <div>
@@ -9,7 +11,9 @@ const Footer = () => {
           <div className="row">
             <div className="col-md-6 ">
               <div className={styles.footer_image}>
+              <Slide left>
                 <img src="footer.png" alt="contact" />
+                </Slide >
               </div>
             </div>
             <div className="col-md-6 ">
@@ -18,6 +22,7 @@ const Footer = () => {
                 in touch and make something amazing together.
               </p>
               <div className={styles.footer_maindiv}>
+              <Slide right>
                 <div>
                   <a href="https://github.com/Susmita549">
                     <svg
@@ -60,6 +65,7 @@ const Footer = () => {
                     </svg>
                   </a>
                 </div>
+                </Slide>
               </div>
             </div>
           </div>
