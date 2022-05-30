@@ -2,7 +2,7 @@ import React from 'react';
 
 const Profile = () => {
   return (
-    <div>
+    <div id="profile">
      <div className='container-fluid  p-5 my-5'>
          <div className="row ">
              <div className="col-md-6  p-5">

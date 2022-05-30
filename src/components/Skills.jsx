@@ -3,7 +3,8 @@ import './portfolio.css'
 const Skills = () => {
   return (
     <>
-        <h1 className="text text-center h1 m-5"> <u>SKILLS</u></h1>
+       <div id="skills">
+       <h1 className="text text-center h1 m-5"> <u>SKILLS</u></h1>
        <div className="box">
          <div>
          <img src="html.png" className="img-fluid" alt="Responsive"/>
@@ -29,6 +30,7 @@ const Skills = () => {
          <div>
          <img src="express.png" className="img-fluid" alt="Responsive image"/>
          </div>
+       </div>
        </div>
     </>
   );

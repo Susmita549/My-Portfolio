@@ -1,12 +1,14 @@
 import React from "react";
 import styles from "./header.module.css";
-
+import Rotate from 'react-reveal/Rotate';
 const Header = () => {
   return (
-    <div>
+    <div id="header">
       <div className={styles.header}>
         <div className={styles.sub_header}>
+        <Rotate bottom right>
           <h1>Susmita Mandal</h1>
+        </Rotate>
           <p>Passionate about changing the world with technology.</p>
           <div>
             <a href="https://github.com/Susmita549">

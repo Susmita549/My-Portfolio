@@ -3,7 +3,7 @@ import styles from "./header.module.css";
 const Footer = () => {
   return (
     <div>
-      <div>
+      <div id="footer">
       <h1 className="text text-center h1 m-5"> <u>HOW TO REACH ME</u></h1>
         <div className="container my-4 ">
           <div className="row">

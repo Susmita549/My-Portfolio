@@ -3,6 +3,7 @@ import './portfolio.css'
 const Projects = () => {
   return (
     <>
+      <div id="project">
       <h1 className="text text-center h1"> ABOUT PROJECTS</h1>
       <div className="container ">
         <div className="row  mx-auto">
@@ -124,6 +125,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

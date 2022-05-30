@@ -23,6 +23,10 @@ code {
    color:black;
 } */
 
+html{
+  scroll-behavior: smooth;
+}
+
 
 
 

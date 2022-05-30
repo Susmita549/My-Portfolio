@@ -1,24 +1,25 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll/modules";
+
 import "./nav.css";
 const Navbar = () => {
   return (
     <div>
       <ul className="topnav">
         <li>
-          <Link to="/home">Home</Link>
+          <Link to="header">Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="profile">About</Link>
         </li>
         <li>
-          <Link to="/skills">Skills</Link>
+          <Link to="skills">Skills</Link>
         </li>
         <li>
-          <Link to="/project">Projects</Link>
+          <Link to="project">Projects</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="footer">Contact</Link>
         </li>
         
       </ul>
