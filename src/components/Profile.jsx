@@ -9,7 +9,7 @@ const Profile = () => {
              <img src="mypic.jpg" class="img-thumbnail" alt="mypic"/>
              </div>
              <div className="col-md-6  p-5">
-               <h1 className='text text-center'>About Me</h1>
+               <h1 className='text text-center'>Hello, I am Susmita👋</h1>
                <div>
                  <p className='text text-center lead p-5 h5'>
                  <em>💻Full-Stack web developer with a degree in Electronics and Communication Engineering who believes in sharing knowledge, 
