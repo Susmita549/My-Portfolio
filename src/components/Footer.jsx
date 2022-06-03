@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text h5 ">Contact Me:</p>
-                  <h2 className="text  "> 6370507147</h2>
+                  <h2 className="text  "> <a href="tel:6370507147" className="text-reset text-decoration-none">6370507147</a></h2>
                 </div>
               </div>
             </div>
