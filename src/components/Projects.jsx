@@ -1,16 +1,17 @@
 import React from "react";
 import "./portfolio.css";
-import Flip from "react-reveal/Flip";
+
+import Fade from 'react-reveal/Fade';
 const Projects = () => {
   return (
     <>
       <div id="project">
-        <h1 className="text text-center h1"> ABOUT PROJECTS</h1>
+        <h1 className="text text-center h1"><u>ABOUT PROJECTS</u></h1>
         <div className="container ">
           <div className="row  mx-auto">
-            <Flip top>
-              <div className=" col-md-4  my-4  ">
-                <div className="card mx-auto" style={{ width: "20rem" }}>
+          <Fade left>
+              <div className=" col-xl-4 col-md-6  my-4  ">
+                <div className="card mx-auto" style={{ width: "20rem", height:"28rem" }}>
                   <img
                     src="frontend.PNG"
                     className="card-img-top "
@@ -19,9 +20,7 @@ const Projects = () => {
                   <div className="card-body">
                     <h5 className="card-title">FRONTEND MASTER</h5>
                     <p className="card-text">
-                      A website basically deals with frontend courses.It has lot
-                      of functionalities among which my task is to make the home
-                      page and signin page.This is an team project completed in
+                      A website basically deals with frontend courses.This is an team project completed in
                       5 days. We cover all the functionalities.
                     </p>
                     <div className="container d-flex justify-content-between">
@@ -43,17 +42,16 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-            </Flip>
-            <div className="col-md-4   my-4 ">
-              <div className="card mx-auto" style={{ width: "20rem" }}>
-                <img src="intern..PNG" className="card-img-top" alt="..." />
+              </Fade>
+              <Fade top>
+            <div className="col-xl-4  col-md-6   my-4 ">
+              <div className="card mx-auto" style={{ width: "20rem" ,height:"28rem"  }}>
+                <img src="intern..PNG" className="card-img-top" alt="intern" />
                 <div className="card-body">
                   <h5 className="card-title">INTERN THEORY</h5>
                   <p className="card-text">
-                    A website basically deals with internshipsnin different
-                    field.In this project my responsibility is build the inner
-                    pages.This is an team project completed in 5 days. We cover
-                    all the functionalities.
+                    A website basically deals with internships in different
+                    field.This is an team project completed in 5 days. 
                   </p>
                   <div className="container d-flex justify-content-between">
                     <button
@@ -74,15 +72,16 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 my-4 ">
-              <div className="card mx-auto" style={{ width: "20rem" }}>
+            </Fade>
+              <Fade right>
+            <div className="col-xl-4 col-md-6 my-4 ">
+              <div className="card mx-auto" style={{ width: "20rem" ,height:"28rem" }}>
                 <img src="movie.PNG" className="card-img-top" alt="movie" />
                 <div className="card-body">
                   <h5 className="card-title">MOVIE APP</h5>
                   <p className="card-text">
                     An app which which us to search different types of movies.We
-                    can also sort the movies according to the rating.It is a
-                    self project.
+                    can also sort the movies according to the rating.
                   </p>
                   <div className="container d-flex justify-content-between">
                     <button
@@ -103,8 +102,11 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4  my-4 ">
-              <div className="card mx-auto" style={{ width: "20rem" }}>
+
+            </Fade>
+              <Fade left>
+            <div className="col-xl-4 col-md-6  my-4 ">
+              <div className="card mx-auto" style={{ width: "20rem", height:"28rem" }}>
                 <img src="weather.PNG" className="card-img-top" alt="weather" />
                 <div className="card-body">
                   <h5 className="card-title">Weather App</h5>
@@ -131,13 +133,16 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4   my-4 ">
-              <div className="card mx-auto" style={{ width: "20rem" }}>
+            </Fade>
+              <Fade bottom>
+            <div className="col-xl-4 col-md-6   my-4 ">
+              <div className="card mx-auto" style={{ width: "20rem", height:"28rem" }}>
                 <img src="clock.PNG" className="card-img-top" alt="clock" />
                 <div className="card-body">
                   <h5 className="card-title">Analog Clock</h5>
                   <p className="card-text">
                     A simple analog clock which shows us time.
+                    It is a self project completed in a day.
                   </p>
                   <div className="container d-flex justify-content-between">
                     <button
@@ -158,8 +163,10 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4   my-4">
-              <div className="card mx-auto" style={{ width: "20rem" }}>
+            </Fade>
+              <Fade right>
+            <div className="col-xl-4 col-md-6   my-4">
+              <div className="card mx-auto" style={{ width: "20rem" ,height:"28rem" }}>
                 <img
                   src="stopwatch.PNG"
                   className="card-img-top"
@@ -168,7 +175,8 @@ const Projects = () => {
                 <div className="card-body">
                   <h5 className="card-title">STOPWATCH</h5>
                   <p className="card-text">
-                    A stopwatch made with HTML,CSS and javascript
+                    A stopwatch made with HTML,CSS and javascript.
+                    It is a self project completed in a day.
                   </p>
                   <div className="container d-flex justify-content-between">
                     <button
@@ -189,6 +197,8 @@ const Projects = () => {
                 </div>
               </div>
             </div>
+            </Fade>
+             
           </div>
         </div>
       </div>

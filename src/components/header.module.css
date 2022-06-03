@@ -55,20 +55,25 @@ header::before {
 /* //footer section  */
 
 .footer {
-  background: rgba(16, 16, 25, 0.9);
+  background: rgba(32, 32, 33, 0.9);
   color: white;
   text-align: center;
-  height: 40vh;
+  padding:1rem;
+
 }
 .footer_image {
   display: flex;
   align-items: center;
-  justify-content: center;
-  border: 1px solid white;
+  justify-content: space-evenly;
+  /* border:1px solid white; */
+
+
+  /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
 }
-.footer_image >img{
-   height:200px;
-   width:200px
+
+.footer_image >div>img{
+   max-height:20vh;
+   max-width:20vw
 }
 .footer_maindiv {
   /* border: 1px solid red; */
@@ -87,10 +92,11 @@ header::before {
     transition:width 2s height 2s;
 }
 .footer_maindiv > div :hover{
-  width:70px;
-  height:70px;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-  border-radius: 20px;
+  width:60px;
+  height:60px;
+  fill:rgb(55, 55, 169);
+  
+  
 }
 
 .sub_header>h1{
@@ -109,7 +115,7 @@ header::before {
   font-size:1.5rem;
 }
 .sub_header>div>a{
- margin:1rem;
+ margin:0.5rem;
 
 }
 .sub_header>div{
@@ -119,5 +125,8 @@ header::before {
  fill: #151bd6;
   
  }
+
+ /*box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;*/
+
 
 

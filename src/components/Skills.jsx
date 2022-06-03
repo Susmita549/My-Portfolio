@@ -1,16 +1,17 @@
 import React from 'react';
 import './portfolio.css'
-import Bounce from 'react-reveal/Bounce';
+import Swing from 'react-reveal/Swing';
+
 const Skills = () => {
   return (
     <>
        <div id="skills">
        <h1 className="text text-center h1 m-5"> <u>SKILLS</u></h1>
-       <Bounce top>
+       <Swing >
        <div className="box">
          <div>
          <img src="html.png" className="img-fluid" alt="Responsive"/>
-         <h3>html</h3>
+        
          </div>
          <div>
          <img src="css.png" className="img-fluid" alt="Responsive"/>
@@ -34,7 +35,7 @@ const Skills = () => {
          <img src="express.png" className="img-fluid" alt="Responsive image"/>
          </div>
        </div>
-       </Bounce>
+       </Swing>
        </div>
     </>
   );

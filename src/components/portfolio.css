@@ -1,8 +1,9 @@
 .card {
-  /* -webkit-box-shadow: 3px 3px 5px 6px #ccc; 
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;  
-    box-shadow:         3px 3px 5px 6px #ccc; 
-   */
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0), 5px 5px 15px 5px rgba(241, 255, 235, 0);
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0), 5px 5px 15px 5px rgba(241, 255, 235, 0);
+
   transition-duration: 500ms;
   transition-property: box-shadow, transform;
   transition-timing-function: ease-in-out;
@@ -11,26 +12,27 @@
 }
 .card:hover {
   transform: translateY(-30px);
-  box-shadow: 0px 40px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 @keyframes color {
   0% {
-    background: #8bc7c7;
+    background: #aee3e3;
   }
   20% {
-    background: #69a96a;
+    background: #99d49a;
   }
   40% {
-    background: #d9e973;
+    background: #d1dc8f;
   }
   60% {
-    background: #eece52ac;
+    background: #d59c76ac;
   }
   80% {
-    background: #446bd5;
+    background: #635fa6;
   }
   100% {
-    background: #e15fcfdf;
+    background: #da7acddf;
   }
 }
 
@@ -40,7 +42,7 @@
   text-align: center;
 }
 .card > img {
-  height: 200px;
+  height: 12rem;
 }
 .card > a:hover {
   background-color: #bfd626;
@@ -48,6 +50,10 @@
 .box {
   display: flex;
   justify-content: center;
+  width:80%;
+  margin:auto;
+  padding:1rem 0;
+  /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
 }
 .box > div {
   height: 100px;
@@ -70,31 +76,12 @@
   width: 130px;
   height: 130px;
   border-radius: 60px;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 
-@media all and (max-width: 1000px) and (min-width: 450px) {
-  /* mobile-devices */
-  .box {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-@media all and (max-width: 449px) and (min-width: 300px) {
-  /* mobile-devices */
-  .box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media all and (max-width: 299px) and (min-width: 100px) {
-  /* mobile-devices */
-  .box {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
 .container > button {
   position: relative;
@@ -159,4 +146,51 @@
   -webkit-transform: rotateX(-90deg);
   -moz-transform: rotateX(-90deg);
   transform: rotateX(-90deg);
+}
+
+.profile > div > img {
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0), 5px 5px 15px 5px rgba(241, 255, 235, 0);
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0), 5px 5px 15px 5px rgba(241, 255, 235, 0);
+
+}
+.profile>div>h1{
+   
+   font-size: 3rem;
+}
+.profile>div>div>p{
+
+  font-size: 1.2rem;
+}
+.profile>div>a>button{
+
+  font-size: 1.5rem;
+}
+.profile>div>a>button:hover{
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+  5px 5px 15px 5px rgba(0, 0, 0, 0), 5px 5px 15px 5px rgba(241, 255, 235, 0);
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+  5px 5px 15px 5px rgba(0, 0, 0, 0), 5px 5px 15px 5px rgba(241, 255, 235, 0);
+} 
+@media all and (max-width: 1000px) and (min-width: 450px) {
+  /* mobile-devices */
+  .box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media all and (max-width: 449px) and (min-width: 300px) {
+  /* mobile-devices */
+  .box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media all and (max-width: 299px) and (min-width: 100px) {
+  /* mobile-devices */
+  .box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

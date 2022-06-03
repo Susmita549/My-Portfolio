@@ -1,15 +1,19 @@
 import React from "react";
 import styles from "./header.module.css";
-import Rotate from 'react-reveal/Rotate';
+import RubberBand from 'react-reveal/RubberBand';
+import Slide from 'react-reveal/Slide';
 const Header = () => {
   return (
     <div id="header">
       <div className={styles.header}>
         <div className={styles.sub_header}>
-        <Rotate bottom right>
+        <RubberBand>
           <h1>Susmita Mandal</h1>
-        </Rotate>
+        </RubberBand>
+        <Slide left>
           <p>Passionate about changing the world with technology.</p>
+          </Slide>
+          <Slide right>
           <div>
             <a href="https://github.com/Susmita549">
               <svg
@@ -78,6 +82,7 @@ const Header = () => {
               </svg>
             </a>
           </div>
+          </Slide>
           {/* <button type="button" className="btn btn-outline-warning">
             Scroll Down to know more 😃
           </button> */}

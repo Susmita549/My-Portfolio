@@ -13,15 +13,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* .dark{
-  background: rgb(2,0,36);
-  color:white;
-}
-.light{
-  
-   background:white;
-   color:black;
-} */
+
 
 html{
   scroll-behavior: smooth;
