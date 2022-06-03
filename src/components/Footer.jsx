@@ -12,7 +12,7 @@ const Footer = () => {
         </h1>
         <div className="container my-4 ">
           <div className="row">
-            <div className="col-md-6 py-4">
+            <div className="col-xl-6 py-4 ">
               <div className={styles.footer_image}>
                 <div>
                 <Slide left>
@@ -23,12 +23,12 @@ const Footer = () => {
                 </Slide>
                 </div>
                 <div>
-                  <h3 className="text  ">Contact Me:</h3>
-                  <h1 className="text  "> 6370507147</h1>
+                  <p className="text h5 ">Contact Me:</p>
+                  <h2 className="text  "> 6370507147</h2>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 py-4">
+            <div className="col-xl-6 py-4 ">
               <h2 className="text">FEEL FREE TO REACH OUT TO ME</h2>
               <p className="text">
                 I am always open to discuss about my project or any other
