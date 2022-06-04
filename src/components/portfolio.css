@@ -163,11 +163,11 @@
 
   font-size: 1.2rem;
 }
-.profile>div>a>button{
+.profile>div>button>a{
 
   font-size: 1.5rem;
 }
-.profile>div>a>button:hover{
+.profile>div>button>a:hover{
   -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
   5px 5px 15px 5px rgba(0, 0, 0, 0), 5px 5px 15px 5px rgba(241, 255, 235, 0);
 box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
