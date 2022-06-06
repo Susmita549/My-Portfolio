@@ -17,11 +17,13 @@ const Projects = () => {
                   className="card mx-auto"
                   style={{ width: "20rem", height: "28rem" }}
                 >
-                  <img
-                    src="frontend.PNG"
-                    className="card-img-top "
-                    alt="frontend master"
-                  />
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe
+                      class="embed-responsive-item"
+                      src="https://www.youtube.com/embed/OZo_ryRsYM4"
+                    ></iframe>
+                  </div>
+
                   <div className="card-body">
                     <h5 className="card-title">FRONTEND MASTER</h5>
                     <p className="card-text">
@@ -53,11 +55,12 @@ const Projects = () => {
                   className="card mx-auto"
                   style={{ width: "20rem", height: "28rem" }}
                 >
-                  <img
-                    src="intern..PNG"
-                    className="card-img-top"
-                    alt="intern"
-                  />
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe
+                      class="embed-responsive-item"
+                      src="https://www.youtube.com/embed/mqnzs3f0M2Y"
+                    ></iframe>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">INTERN THEORY</h5>
                     <p className="card-text">
@@ -89,7 +92,12 @@ const Projects = () => {
                   className="card mx-auto"
                   style={{ width: "20rem", height: "28rem" }}
                 >
-                  <img src="movie.PNG" className="card-img-top" alt="movie" />
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe
+                      class="embed-responsive-item"
+                      src="https://www.youtube.com/embed/cjMXaotg6tE"
+                    ></iframe>
+                  </div>
                   <div className="card-body">
                     <h5 className="card-title">MOVIE APP</h5>
                     <p className="card-text">
@@ -122,27 +130,28 @@ const Projects = () => {
                   className="card mx-auto"
                   style={{ width: "20rem", height: "28rem" }}
                 >
-                  <img
-                    src="weather.PNG"
-                    className="card-img-top"
-                    alt="weather"
-                  />
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe
+                      class="embed-responsive-item"
+                      src="https://www.youtube.com/embed/kYzHU0xzFU4"
+                    ></iframe>
+                  </div>
                   <div className="card-body">
-                    <h5 className="card-title">Weather App</h5>
+                    <h5 className="card-title">RESTAURENT APP</h5>
                     <p className="card-text">
-                      A self project which provides us with 7 days of weather
-                      details of different areas.
+                      A simple restaurent app made with react js for searching
+                      differnt restaurent according to price and payment option.
                     </p>
                     <div className="container d-flex justify-content-between">
                       <button className="btn ">
-                        <a href="https://github.com/Susmita549/Weather-App">
+                        <a href="https://github.com/Susmita549/Restaurent-App">
                           {" "}
                           <span>Click Me!!</span>
                           <span>Code</span>
                         </a>
                       </button>
                       <button className="btn ">
-                        <a href="https://susmita549.github.io/Weather-App/">
+                        <a href="https://verdant-kringle-66fdf4.netlify.app/">
                           {" "}
                           <span>Click Me!!</span>
                           <span>Website</span>
@@ -159,22 +168,27 @@ const Projects = () => {
                   className="card mx-auto"
                   style={{ width: "20rem", height: "28rem" }}
                 >
-                  <img src="clock.PNG" className="card-img-top" alt="clock" />
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe
+                      class="embed-responsive-item"
+                      src="https://www.youtube.com/embed/_y5fdmVcH9o"
+                    ></iframe>
+                  </div>
                   <div className="card-body">
-                    <h5 className="card-title">Analog Clock</h5>
+                    <h5 className="card-title">YOUTUBE</h5>
                     <p className="card-text">
-                      A simple analog clock which shows us time. It is a self
-                      project completed in a day.
+                      Clone of youtube with same UI and implement some of the
+                      features like searhing and playing video using Javascript
                     </p>
                     <div className="container d-flex justify-content-between">
                       <button className="btn ">
-                        <a href="https://github.com/Susmita549/Analog-Clock">
+                        <a href="https://github.com/Susmita549/Youtube">
                           <span>Click Me!!</span>
                           <span>Code</span>
                         </a>
                       </button>
                       <button className="btn ">
-                        <a href="https://susmita549.github.io/Analog-Clock/">
+                        <a href="https://dreamy-brioche-e82b43.netlify.app/">
                           <span>Click Me!!</span>
                           <span>Website</span>
                         </a>
@@ -190,26 +204,28 @@ const Projects = () => {
                   className="card mx-auto"
                   style={{ width: "20rem", height: "28rem" }}
                 >
-                  <img
-                    src="stopwatch.PNG"
-                    className="card-img-top"
-                    alt="stopwatch"
-                  />
+                  <div class="embed-responsive embed-responsive-4by3">
+                  <iframe
+                    class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/6tK2t3SoJBI"
+                    
+                    ></iframe>
+                    </div>
                   <div className="card-body">
-                    <h5 className="card-title">STOPWATCH</h5>
+                    <h5 className="card-title">TODO APP</h5>
                     <p className="card-text">
-                      A stopwatch made with HTML,CSS and javascript. It is a
-                      self project completed in a day.
-                    </p>
+                    ‍A simple to-do list which maintain the tasks you need to complete instead of relying on your memory.
+
+DemoGithub.</p>
                     <div className="container d-flex justify-content-between">
                       <button className="btn ">
-                        <a href="https://github.com/Susmita549/Stopwatch">
+                        <a href="https://github.com/Susmita549/React-Todo-App">
                           <span>Click Me!!</span>
                           <span>Code</span>
                         </a>
                       </button>
                       <button className="btn ">
-                        <a href="https://susmita549.github.io/Stopwatch/">
+                        <a href="https://velvety-banoffee-05be3c.netlify.app/">
                           {" "}
                           <span>Click Me!!</span>
                           <span>Website</span>
