@@ -7,8 +7,8 @@ const Profile = () => {
      <div className='container-fluid  p-5  '>
          <div className="row  profile m-4 p-2">
          <Fade left>
-             <div className="col-md-6  my-5 py-5  ">
-             <img src="mypic.jpg" className="img-thumbnail rounded-circle" alt="mypic"/>
+             <div className="col-md-6  my-5 py-4  ">
+             <img src="myphoto.png" className="img-thumbnail rounded-circle" alt="mypic"/>
              </div>
              </Fade>
              <Fade right>
@@ -21,7 +21,7 @@ const Profile = () => {
                  garner the required skill-set to be a successful web developer.
                  </p>
                </div>
-               <a href="https://drive.google.com/file/d/1NEQUEudxlzBFkOce7OytNzeQ4K3qElJk/view?usp=sharing">
+               <a href="https://drive.google.com/drive/folders/1MTsFB2BD6GqVsAEgs7MRxF7hoIp5aNHt">
                <button className='btn btn-primary px-5 py-2'>RESUME</button>
                </a>
                
