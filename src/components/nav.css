@@ -6,9 +6,10 @@ ul.topnav {
   background: rgb(2, 0, 36);
   color: white;
   padding: 1rem;
-  /* position: fixed;
+  position: fixed;
     top: 0;
-    width: 100%; */
+    width: 100%;
+    z-index:1000;
 }
 
 ul.topnav li {
@@ -35,7 +36,10 @@ ul.topnav li button {
 }
 
 ul.topnav li a:hover:not(.active) {
-  background-color: #111;
+  /* background-color: rgb(248, 242, 242); */
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bolder;
 }
 
 ul.topnav li a.active {
@@ -54,4 +58,8 @@ ul.topnav li.right {
   ul.topnav li button {
     margin:auto
   }
+  /* ul.topnav{
+    margin-bottom: 50px;
+  } */
+
 }

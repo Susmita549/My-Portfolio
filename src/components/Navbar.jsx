@@ -5,6 +5,7 @@ import styles from "./header.module.css";
 
 import "./nav.css";
 import { ThemeContext } from "../context/ThemeContext";
+import Toggle from "./Toggle";
 const Navbar = () => {
   const { isLight, toggleTheme } = useContext(ThemeContext);
   return (
@@ -12,8 +13,10 @@ const Navbar = () => {
       <ul className="topnav">
       <Flash>
           <li>
-            <button onClick={toggleTheme}>{`Make ${isLight ? "dark" : "light"}`}</button>
+            <button onClick={toggleTheme}>{<Toggle/>}</button>
+            {/* <Toggle/> */}
           </li>
+
         </Flash>
 
         <Flash>

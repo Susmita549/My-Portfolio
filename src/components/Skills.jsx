@@ -11,7 +11,6 @@ const Skills = () => {
        <div className="box">
          <div>
          <img src="html.png" className="img-fluid" alt="Responsive"/>
-        
          </div>
          <div>
          <img src="css.png" className="img-fluid" alt="Responsive"/>
@@ -34,6 +33,7 @@ const Skills = () => {
          <div>
          <img src="express.png" className="img-fluid" alt="Responsive image"/>
          </div>
+         
        </div>
        </Swing>
        </div>

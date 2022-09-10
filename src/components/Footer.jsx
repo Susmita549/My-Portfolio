@@ -37,7 +37,7 @@ const Footer = () => {
               <div className={styles.footer_maindiv}>
                 <Slide right>
                   <div>
-                    <a href="https://github.com/Susmita549">
+                    <a href="https://github.com/Susmita549" target="_blank">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="46"
@@ -51,7 +51,7 @@ const Footer = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.linkedin.com/in/susmitamandal549/">
+                    <a href="https://www.linkedin.com/in/susmitamandal549/" target="_blank">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="46"
@@ -65,7 +65,7 @@ const Footer = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="mailto:jsusmita549@email.com?subject=subject&cc=susmitamandal1811@example.com">
+                    <a href="mailto:jsusmita549@email.com?subject=subject&cc=susmitamandal1811@example.com" target="_blank">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="46"

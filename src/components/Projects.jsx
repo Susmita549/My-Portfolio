@@ -2,6 +2,14 @@ import React from "react";
 import "./portfolio.css";
 
 import Fade from "react-reveal/Fade";
+const project = [
+  {youtubelink:"https://www.youtube.com/embed/OZo_ryRsYM4",cardTitle:"FRONTEND MASTER",cardText:"A website basically deals with frontend courses.This is an team project completed in 5 days. We cover all the functionalities.",github:"https://github.com/Susmita549/Frontend_Master",deploy:"https://darling-chebakia-d6a79c.netlify.app/",teckStack:"HTML,CSS,JS"},
+  {youtubelink:"https://www.youtube.com/embed/mqnzs3f0M2Y",cardTitle:"INTERN THEORY",cardText:" A website basically deals with internships in different field.This is an team project completed in 5 days.",github:"https://github.com/Susmita549/Intern-Theory",deploy:"https://tranquil-sherbet-8f6bdd.netlify.app/",teckStack:"HTML,CSS,JS"},
+  {youtubelink:"https://www.youtube.com/embed/mqnzs3f0M2Y",cardTitle:"MY NETDIARY",cardText:" A website basically deals with internships in different field.This is an team project completed in 5 days.",github:"https://github.com/Susmita549/Intern-Theory",deploy:"https://tranquil-sherbet-8f6bdd.netlify.app/",teckStack:"REACT,NODEJS,EXPRESS,CHAKRA-UI,MONGODB"},
+  {youtubelink:"https://www.youtube.com/embed/mqnzs3f0M2Y",cardTitle:"PHARMEASY",cardText:" A website basically deals with internships in different field.This is an team project completed in 5 days.",github:"https://github.com/Susmita549/Intern-Theory",deploy:"https://tranquil-sherbet-8f6bdd.netlify.app/",teckStack:"REACT,REDUX,NODEJS,EXPRESS,CHAKRA-UI,MONGODB"},
+  {youtubelink:"https://www.youtube.com/embed/mqnzs3f0M2Y",cardTitle:"CHROME EXTENSION",cardText:" A website basically deals with internships in different field.This is an team project completed in 5 days.",github:"https://github.com/Susmita549/Intern-Theory",deploy:"https://tranquil-sherbet-8f6bdd.netlify.app/",teckStack:"REACT,NODEJS,EXPRESS,CHAKRA-UI,MONGODB"},
+  {youtubelink:"https://www.youtube.com/embed/mqnzs3f0M2Y",cardTitle:"TODO APP",cardText:" A website basically deals with internships in different field.This is an team project completed in 5 days.",github:"https://github.com/Susmita549/Intern-Theory",deploy:"https://tranquil-sherbet-8f6bdd.netlify.app/",teckStack:"REACT,REDUX,BOOTSTRAP"}
+]
 const Projects = () => {
   return (
     <>
@@ -12,34 +20,38 @@ const Projects = () => {
         <div className="container ">
           <div className="row  mx-auto">
             <Fade left>
-              <div className=" col-xl-4 col-md-6  my-4  ">
+              {project.map((el)=>(
+                <div className=" col-xl-4 col-md-6  my-4  ">
                 <div
                   className="card mx-auto"
-                  style={{ width: "20rem", height: "28rem" }}
+                  style={{ width: "20rem", height: "33rem" }}
                 >
-                  <div class="embed-responsive embed-responsive-4by3">
+                  <div className="embed-responsive embed-responsive-4by3">
                     <iframe
                       class="embed-responsive-item"
-                      src="https://www.youtube.com/embed/OZo_ryRsYM4"
+                      src={el.youtubelink}
                     ></iframe>
                   </div>
 
                   <div className="card-body">
-                    <h5 className="card-title">FRONTEND MASTER</h5>
+                    <h5 className="card-title">{el.cardTitle}</h5>
                     <p className="card-text">
-                      A website basically deals with frontend courses.This is an
-                      team project completed in 5 days. We cover all the
-                      functionalities.
+                      {el.cardText}
                     </p>
+                    
+                    <div className="border border-danger px-2 my-1">
+                    <h5 className="card-title">TECH STACK</h5>
+                      <p>{el.teckStack}</p>
+                    </div>
                     <div className="container d-flex justify-content-between">
                       <button className="btn ">
-                        <a href="https://github.com/Susmita549/Frontend_Master">
+                        <a href={el.github}>
                           <span>Click Me!!</span>
                           <span>code</span>
                         </a>
                       </button>
                       <button className="btn ">
-                        <a href="https://darling-chebakia-d6a79c.netlify.app/">
+                        <a href={el.deploy}>
                           <span>Click Me!!</span>
                           <span>Website</span>
                         </a>
@@ -48,194 +60,9 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
+              ))}
             </Fade>
-            <Fade top>
-              <div className="col-xl-4  col-md-6   my-4 ">
-                <div
-                  className="card mx-auto"
-                  style={{ width: "20rem", height: "28rem" }}
-                >
-                  <div class="embed-responsive embed-responsive-4by3">
-                    <iframe
-                      class="embed-responsive-item"
-                      src="https://www.youtube.com/embed/mqnzs3f0M2Y"
-                    ></iframe>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">INTERN THEORY</h5>
-                    <p className="card-text">
-                      A website basically deals with internships in different
-                      field.This is an team project completed in 5 days.
-                    </p>
-                    <div className="container d-flex justify-content-between">
-                      <button className="btn ">
-                        <a href="https://github.com/Susmita549/Intern-Theory">
-                          <span>Click Me!!</span>
-                          <span>Code</span>
-                        </a>
-                      </button>
-                      <button className="btn ">
-                        <a href="https://tranquil-sherbet-8f6bdd.netlify.app/">
-                          {" "}
-                          <span>Click Me!!</span>
-                          <span>Website</span>
-                        </a>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Fade>
-            <Fade right>
-              <div className="col-xl-4 col-md-6 my-4 ">
-                <div
-                  className="card mx-auto"
-                  style={{ width: "20rem", height: "28rem" }}
-                >
-                  <div class="embed-responsive embed-responsive-4by3">
-                    <iframe
-                      class="embed-responsive-item"
-                      src="https://www.youtube.com/embed/cjMXaotg6tE"
-                    ></iframe>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">MOVIE APP</h5>
-                    <p className="card-text">
-                      An app which which us to search different types of
-                      movies.We can also sort the movies according to the
-                      rating.
-                    </p>
-                    <div className="container d-flex justify-content-between">
-                      <button className="btn ">
-                        <a href="https://github.com/Susmita549/Movie-App">
-                          {" "}
-                          <span>Click Me!!</span>
-                          <span>Code</span>
-                        </a>
-                      </button>
-                      <button className="btn ">
-                        <a href="https://susmita549.github.io/Movie-App/movie.html">
-                          <span>Click Me!!</span>
-                          <span>Website</span>
-                        </a>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Fade>
-            <Fade left>
-              <div className="col-xl-4 col-md-6  my-4 ">
-                <div
-                  className="card mx-auto"
-                  style={{ width: "20rem", height: "28rem" }}
-                >
-                  <div class="embed-responsive embed-responsive-4by3">
-                    <iframe
-                      class="embed-responsive-item"
-                      src="https://www.youtube.com/embed/kYzHU0xzFU4"
-                    ></iframe>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">RESTAURENT APP</h5>
-                    <p className="card-text">
-                      A simple restaurent app made with react js for searching
-                      differnt restaurent according to price and payment option.
-                    </p>
-                    <div className="container d-flex justify-content-between">
-                      <button className="btn ">
-                        <a href="https://github.com/Susmita549/Restaurent-App">
-                          {" "}
-                          <span>Click Me!!</span>
-                          <span>Code</span>
-                        </a>
-                      </button>
-                      <button className="btn ">
-                        <a href="https://verdant-kringle-66fdf4.netlify.app/">
-                          {" "}
-                          <span>Click Me!!</span>
-                          <span>Website</span>
-                        </a>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Fade>
-            <Fade bottom>
-              <div className="col-xl-4 col-md-6   my-4 ">
-                <div
-                  className="card mx-auto"
-                  style={{ width: "20rem", height: "28rem" }}
-                >
-                  <div class="embed-responsive embed-responsive-4by3">
-                    <iframe
-                      class="embed-responsive-item"
-                      src="https://www.youtube.com/embed/_y5fdmVcH9o"
-                    ></iframe>
-                  </div>
-                  <div className="card-body">
-                    <h5 className="card-title">YOUTUBE</h5>
-                    <p className="card-text">
-                      Clone of youtube with same UI and implement some of the
-                      features like searhing and playing video using Javascript
-                    </p>
-                    <div className="container d-flex justify-content-between">
-                      <button className="btn ">
-                        <a href="https://github.com/Susmita549/Youtube">
-                          <span>Click Me!!</span>
-                          <span>Code</span>
-                        </a>
-                      </button>
-                      <button className="btn ">
-                        <a href="https://dreamy-brioche-e82b43.netlify.app/">
-                          <span>Click Me!!</span>
-                          <span>Website</span>
-                        </a>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Fade>
-            <Fade right>
-              <div className="col-xl-4 col-md-6   my-4">
-                <div
-                  className="card mx-auto"
-                  style={{ width: "20rem", height: "28rem" }}
-                >
-                  <div class="embed-responsive embed-responsive-4by3">
-                  <iframe
-                    class="embed-responsive-item"
-                    src="https://www.youtube.com/embed/6tK2t3SoJBI"
-                    
-                    ></iframe>
-                    </div>
-                  <div className="card-body">
-                    <h5 className="card-title">TODO APP</h5>
-                    <p className="card-text">
-                    ‍A simple to-do list which maintain the tasks you need to complete instead of relying on your memory.
-
-DemoGithub.</p>
-                    <div className="container d-flex justify-content-between">
-                      <button className="btn ">
-                        <a href="https://github.com/Susmita549/React-Todo-App">
-                          <span>Click Me!!</span>
-                          <span>Code</span>
-                        </a>
-                      </button>
-                      <button className="btn ">
-                        <a href="https://velvety-banoffee-05be3c.netlify.app/">
-                          {" "}
-                          <span>Click Me!!</span>
-                          <span>Website</span>
-                        </a>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Fade>
+            
           </div>
         </div>
       </div>
@@ -244,3 +71,4 @@ DemoGithub.</p>
 };
 
 export default Projects;
+

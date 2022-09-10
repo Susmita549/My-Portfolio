@@ -1,0 +1,84 @@
+/* .toggle{
+    display:none;
+}
+.button{
+    display:inline-block;
+    width:90px;
+    height:35px;
+    background-color: #ffff;
+    border-radius: 30px;
+    position: relative;
+    cursor:pointer;
+}
+.button::after{
+    content:url('../../public/icons8-sun.svg');
+    width:40px;
+    height:40px;
+    background-color: #e03c3c;
+    border:2px solid #ffff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,.25);
+    position:absolute;
+    top:-5px;
+    left:0;
+    display:grid;
+    place-content: center;
+    line-height: 0;
+    transition: background-color 1s,
+    transform 1s ease-in;
+}
+.toggle:checked + .button::after{
+    content:url('../../public/moon-svgrepo-com.svg');
+    background-color:#1f257f;
+    transform: translateX(50px) rotate(360deg);
+
+} */
+/* .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.2s linear;
+  } */
+.checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .label {
+    width: 50px;
+    height: 26px;
+    background-color:#111;
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+  }
+  
+  .ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+  
+  /*  target the elemenent after the label*/
+  .checkbox:checked + .label .ball{
+    transform: translateX(24px);
+  }
+  
+  .fa-moon {
+    color: pink;
+  }
+  
+  .fa-sun {
+    color: yellow;
+  }
