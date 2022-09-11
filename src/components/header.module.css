@@ -127,14 +127,51 @@ header::before {
 .sub_header > div > a > svg:hover {
   fill: #151bd6;
 }
+@media (min-width: 200px) {
+  /* .header {
+    margin-top: 80px;
+    width:120vw;
+  } */
+  /* .sub_header > h1 {
+    font-size: 3rem;
+    text-shadow: 6px 4px 6px rgba(0, 0, 0, 0.6);
+  }
+  .sub_header > p {
+    font-size: 1rem;
+    text-shadow: 6px 4px 6px rgba(0, 0, 0, 0.6);
+    text-align: center;
+  } */
+  /* .sub_header > div > a {
+    margin: 0.5rem;
+  } */
+  /* .sub_header > div {
+    padding: 0.7rem;
+  } */
+}
+@media (max-width: 600px) {
+  .header {
+    height:500px;
+    margin-top: 150px;
+    width:100vw;
+  }
+}
+@media (max-width: 1500px) {
+  .header {
+    margin-top: 90px;
+  }
+}
+/* @media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  
+} */
+
 
 
 
 /*box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;*/
-
-.toggle{
-  background-color: #23a6d5;
-}
-.toggle2{
-  background-color: #ccd523;
-}

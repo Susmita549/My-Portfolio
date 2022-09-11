@@ -9,6 +9,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import { useContext } from "react";
 import { ThemeContext } from "./context/ThemeContext";
+import Nav from "./components/Nav";
 // import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <div className={`App ${isLight?"light":"dark"}`}>
-      <Navbar />
+      <Nav />
 
       <Header />
       <Profile />
