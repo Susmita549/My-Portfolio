@@ -13,7 +13,7 @@ const Navbar = () => {
       <ul className="topnav">
       <Flash>
           <li>
-            <button onClick={toggleTheme}>{<Toggle/>}</button>
+            <button onClick={toggleTheme}>{`Make ${isLight===true? 'dark' : 'light'}`}</button>
             {/* <Toggle/> */}
           </li>
 
